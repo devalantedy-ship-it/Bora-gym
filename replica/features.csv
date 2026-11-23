@@ -1,0 +1,43 @@
+feature,area,priority,original,clone,notes
+Treino do dia vindo do personal,treino,must,yes,yes,BORA: tela Hoje + modo treino guiado
+Registrar carga e reps por série,treino,must,yes,yes,BORA: modo treino com kg/reps por série
+Mostrar o que fez da última vez em cada série,treino,must,yes,yes,BORA: coluna Anterior e campos já preenchidos
+Timer de descanso automático,treino,must,yes,yes,BORA: anel de descanso com +15s e pular
+Tipos de série (aquecimento/falha/drop),treino,should,yes,yes,BORA: toque no número da série
+Notas por exercício,treino,should,yes,partial,BORA tem dica do personal; aluno não anota
+Iniciar treino vazio (sem rotina),treino,could,yes,no,
+Superset,treino,could,yes,no,
+RPE,treino,could,yes,no,
+Calculadora de anilhas e de aquecimento,treino,could,yes,no,
+Biblioteca de exercícios com busca e filtro,exercicios,must,yes,yes,BORA: busca + chips por músculo no montar treino
+Vídeo de execução por exercício,exercicios,must,yes,yes,BORA: gravado pelo personal (melhor pro aluno dele)
+Exercícios personalizados,exercicios,must,yes,yes,BORA: cadastro com vídeo e capa
+Recordes pessoais (PR) por exercício,progresso,must,yes,yes,BORA: maior carga + 1RM estimado + maior volume
+Aviso de PR na hora do treino,progresso,should,yes,yes,BORA: faixa verde animada
+Gráfico de evolução por exercício (carga / 1RM),progresso,must,yes,yes,BORA: gráfico na tela do exercício
+Histórico completo de treinos,progresso,must,yes,yes,BORA: tela Histórico por mês com séries
+Calendário e sequência (streak),progresso,must,yes,yes,BORA: ofensiva + grade de 5 semanas + salva-ofensiva
+Séries por grupo muscular por semana,progresso,should,yes,yes,BORA: no relatório do mês
+Relatório mensal / retrospectiva,progresso,should,yes,yes,BORA: Relatório do mês compartilhável
+Medidas corporais e peso,progresso,should,yes,yes,BORA: tela Medidas e peso com gráfico
+Fotos de progresso,progresso,should,yes,yes,BORA: foto na medição
+Resumo ao salvar o treino (duração volume PRs),treino,must,yes,yes,BORA: resumo com minutos/volume/séries/recordes
+Feed da turma com curtir,social,should,yes,yes,BORA: feed da turma com 💪
+Comentários nos treinos,social,could,yes,no,
+Compartilhar treino como imagem,social,should,yes,no,card pros stories
+Ranking,social,could,yes,yes,BORA: ranking semanal + ligas + desafio
+Personal monta programa,coach,must,yes,yes,BORA: montar treino em 3 passos
+Atribuir programa a alunos específicos,coach,must,yes,yes,BORA: Pra quem? + chaves na ficha do aluno
+Dashboard do personal com atividade da turma,coach,must,yes,yes,BORA: início do personal + sumidos
+Aderência e progresso do aluno pro personal,coach,must,yes,yes,BORA: frequência + gráfico de carga na ficha (dados de exemplo até o banco)
+Chat personal ↔ aluno,coach,should,yes,yes,BORA: chat local; tempo real com Supabase
+Convite por link/código,coach,must,yes,yes,BORA: código da turma + compartilhar
+Programa de várias semanas,coach,could,yes,no,BORA usa treinos fixos por dia da semana
+Equipe de personais,coach,could,yes,no,
+Funciona offline e sincroniza,plataforma,should,yes,partial,BORA salva no aparelho; sync vem com Supabase
+Biblioteca de 400+ vídeos do Hevy,exercicios,skip,yes,no,conteúdo deles; BORA usa vídeos do próprio personal
+Rede social e atletas globais,social,skip,yes,no,a rede é deles; BORA = turma do personal
+Apple Watch / Wear OS / Live Activity,plataforma,skip,yes,no,nativo; pode vir depois com build própria
+Integração Strava / ChatGPT / Claude,plataforma,skip,yes,no,depois
+Hevy Trainer (plano por IA),coach,skip,yes,no,BORA tem personal de verdade
+Cobrança dos clientes,coach,skip,no,no,Hevy Coach cobra o coach via Paddle; BORA ainda não cobra

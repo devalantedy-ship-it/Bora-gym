@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "BORA",
+    "slug": "bora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.boraapp.treino",
+      "infoPlist": {
+        "NSCameraUsageDescription": "O BORA usa a câmera pra você tirar a foto do check-in do treino.",
+        "NSPhotoLibraryUsageDescription": "O BORA acessa suas fotos pra você escolher a foto do check-in."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#D4FF3A",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.boraapp.treino"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-video",
+      "expo-image",
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "O BORA usa a câmera pra você tirar a foto do check-in do treino.",
+          "photosPermission": "O BORA acessa suas fotos pra você escolher a foto do check-in."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0A0A0A",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180
+        }
+      ]
+    ],
+    "scheme": "bora",
+    "backgroundColor": "#0A0A0A"
+  }
+}
